@@ -1,0 +1,28 @@
+.cv {
+  width: 100%;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .name {
+    font-size: 53px;
+    font-weight: bold;
+  }
+
+  .frontendDev {
+    font-size: 20px;
+    color: #828282;
+  }
+
+  .Download-Cv {
+    max-width: 150px;
+    width: 100%;
+    height: 48px;
+    background-color: #455174;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+}
