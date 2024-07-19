@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './Header.module.scss';
-const Header = ({ toggletheme, theme }) => {
+const Header = ({ toggletheme, theme, svg }) => {
   let darkorlightimg = '';
+
   return (
     <header className={style.Header}>
       <div className={style.headerContent}>
@@ -12,7 +13,9 @@ const Header = ({ toggletheme, theme }) => {
           <li>Projects</li>
           <li>Content</li>
         </ul>
-        <button onClick={toggletheme}>click me</button>
+        <button className={style.changebutton} onClick={toggletheme}>
+          {svg}
+        </button>
       </div>
     </header>
   );

@@ -5,7 +5,7 @@ const Cv = ({ theme }) => {
     <div className={style.cv}>
       <p className={`${style.name} ${theme}`}>Hi, I am Chukwukwe Chisom</p>
       <p className={style.frontendDev}>Frontend Developer</p>
-      <button className='Download-Cv'>Download CV</button>
+      <button className={style.DownloadCv}>Download CV</button>
     </div>
   );
 };
