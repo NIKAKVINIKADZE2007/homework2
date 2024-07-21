@@ -19,7 +19,7 @@ const Scosials = () => {
       </a>
 
       <a href='#'>
-        <img src='../../public/WhatsApp Inc. - png 0.png' alt='WhatsApp' />
+        <img src='/WhatsApp Inc. - png 0.png' alt='WhatsApp' />
       </a>
 
       <a href='#'>
@@ -42,7 +42,7 @@ const Scosials = () => {
       </a>
 
       <a href='#'>
-        <img src='../../public/instargram.com - png.png' alt='' />
+        <img src='/instargram.com - png.png' alt='' />
       </a>
 
       <a href='#'>

@@ -1,0 +1,46 @@
+.container {
+  max-width: 680px;
+  width: 100%;
+  height: 124px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  .innerdiv {
+    max-width: 161px;
+    width: 100%;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 0px;
+      width: 55px;
+      height: 55px;
+    }
+
+    .name {
+      width: 100%;
+      background-color: #455174;
+      border-radius: 24px;
+      color: white;
+      font-weight: 500;
+      border: none;
+      height: 60px;
+    }
+
+    .darkcircle {
+      stroke: #222222;
+      stroke-width: 8px;
+    }
+
+    .divdark {
+      height: 91px;
+    }
+  }
+}

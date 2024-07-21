@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import style from './Header.module.scss';
-const Header = ({ toggletheme, theme, svg }) => {
+import svg2 from '/Vector (3).svg';
+import svg1 from '/Vector (4).svg';
+const Header = ({ toggletheme, theme }) => {
   let darkorlightimg = '';
 
   return (
@@ -14,7 +16,7 @@ const Header = ({ toggletheme, theme, svg }) => {
           <li>Content</li>
         </ul>
         <button className={style.changebutton} onClick={toggletheme}>
-          {svg}
+          <img src={theme == 'dark' ? svg1 : svg2} alt='' />
         </button>
       </div>
     </header>

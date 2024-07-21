@@ -4,7 +4,7 @@ import Scosials from './section1-part1/Scosials';
 import style from './Section1.module.scss';
 
 const Section1 = ({ theme }) => {
-  let imgSrc = '../public/Group 148.png';
+  let imgSrc = './Group 148.webp';
   return (
     <section className={style.section1}>
       <div className={style.CvAndSocial}>
